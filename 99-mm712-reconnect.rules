@@ -1,0 +1,1 @@
+delayACTION=="add", SUBSYSTEM=="usb", ATTR{idVendor}=="2516", ATTR{idProduct}=="01b7", ATTR{power/control}="auto", ATTR{power/persist}="0", ATTR{power/autosuspend}="300", ATTR{power/wakeup}="disabled"
