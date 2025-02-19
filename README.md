@@ -15,10 +15,10 @@ Shoutout to sacha-sokoloski on reddit: https://www.reddit.com/r/linuxquestions/c
    ```
 2. Run the installation script:
 
-```bash
-chmod +x install.sh
-sudo ./install.sh
-```
+   ```bash
+   chmod +x install.sh
+   sudo ./install.sh
+   ```
 
 3. Unplug and replug your mouse to test the setup
 
@@ -26,10 +26,10 @@ sudo ./install.sh
 
 Run the commands:
 
-```bash
-sudo rm /etc/udev/rules.d/99-mm712-reconnect.rules /usr/local/bin/reconnect-mm712.sh
-sudo udevadm control --reload-rules
-```
+   ```bash
+   sudo rm /etc/udev/rules.d/99-mm712-reconnect.rules /usr/local/bin/reconnect-mm712.sh
+   sudo udevadm control --reload-rules
+   ```
 
 ### License
 
